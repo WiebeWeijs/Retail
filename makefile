@@ -3,4 +3,4 @@ all: data_preparation
 
 # Data preparation will invoke the Makefile in the 'src' directory
 data_preparation:
-		make -C Scraper/Retail
+		make -C Scraper
