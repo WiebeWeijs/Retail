@@ -1,3 +1,4 @@
+# Define a top-level target that depends on all outputs
 all: Action_data.csv AH_choco.csv choco.csv
 
 # Target to create Action_data.csv from Action.ipynb
