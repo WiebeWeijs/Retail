@@ -1,3 +1,5 @@
+all: Action_data.csv AH_choco.csv choco.csv
+
 # Target to create Action_data.csv from Action.ipynb
 Action_data.csv: Action.ipynb
 		jupyter nbconvert --to notebook --execute Action.ipynb --output Action_data.ipynb
